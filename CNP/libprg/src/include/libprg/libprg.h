@@ -18,7 +18,7 @@ void empilhar (Pilha *pilha, float p);
 float desempilhar (Pilha *pilha);
 int tamanho (Pilha *pilha);
 int vazia (Pilha *pilha);
-float notacao_polonesa_inversa (int argc, char *argv[]);
+void notacao_polonesa_inversa (int argc, char *argv[]);
 
 
 typedef enum { SUM, SUB } operation_t;

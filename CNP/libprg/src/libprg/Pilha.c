@@ -50,7 +50,7 @@ int vazia (Pilha *pilha) {
     return 0;
 }
 
-float notacao_polonesa_inversa (int argc, char *argv[]) {
+void notacao_polonesa_inversa (int argc, char *argv[]) {
     Pilha pilha_polonesa;
     cria_pilha(&pilha_polonesa, argc);
 
@@ -82,5 +82,5 @@ float notacao_polonesa_inversa (int argc, char *argv[]) {
         }
 
     }
-    return desempilhar(&pilha_polonesa);
+    imprime_pilha(&pilha_polonesa);
 }
